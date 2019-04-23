@@ -1,9 +1,10 @@
     .slide {
-        width: 500px;
-        height: 300px;
+        width: 750px;
+        height: 450px;
         border: 1px solid #888;
-        position: relative;
+        position: absolute;
         text-align: center;
+		left:25%;
     }
 	.slide  input {
         display: none;
@@ -52,8 +53,8 @@
     }
 
     img {
-        width:500px;
-		height:300px;
+        width:750px;
+		height:450px;
     }
 	
     .slide  input:checked + label + div {
